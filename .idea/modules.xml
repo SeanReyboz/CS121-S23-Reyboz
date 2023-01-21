@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Activities/Activities.iml" filepath="$PROJECT_DIR$/Activities/Activities.iml" />
       <module fileurl="file://$PROJECT_DIR$/CS121-S23-Reyboz.iml" filepath="$PROJECT_DIR$/CS121-S23-Reyboz.iml" />
     </modules>
   </component>
