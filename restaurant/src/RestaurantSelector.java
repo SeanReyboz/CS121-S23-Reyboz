@@ -41,7 +41,7 @@ public class RestaurantSelector
 
         System.out.println("\nHere are your restaurants choices:");
 
-        /*
+/*
         if ((isVegetarian.equals("yes") || isVegetarian.equals("no"))
                 && isVegan.equals("yes")
                 && (isGlutenIntolerant.equals("yes") || isGlutenIntolerant.equals("no"))
@@ -72,7 +72,9 @@ public class RestaurantSelector
         }
         */
 
-        // different (somewhat better) approach using a HashMap
+
+        // /*
+        // different (slightly better) approach using a HashMap
         if (isVegan.equals("yes")) {
             restaurants.remove("joe");
             restaurants.remove("pizza");
@@ -88,9 +90,10 @@ public class RestaurantSelector
             restaurants.remove("italian");
         }
 
-
+        // display the final result
         for (String restaurant : restaurants.values()) {
             System.out.printf("\t%s\n", restaurant);
         }
+        // */
     }
 }

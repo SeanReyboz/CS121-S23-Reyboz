@@ -1,0 +1,4 @@
+course credits score
+cs121 4 100
+cs203 2 100
+pfw100 3 100
